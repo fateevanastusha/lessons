@@ -1,0 +1,20 @@
+Агрегатные функции получают единственный результат из набора входных значений, представляет собой применение 
+агрегатной функции к строкам, выбранным запросом. 
+
+Пример:
+AVG: вычисляет среднее значение
+SELECT AVG(price) from business_tariff_payments
+
+SUM: вычисляет сумму значений
+SELECT SUM(price) from billing_payments
+
+MIN: вычисляет наименьшее значение
+SELECT MIN(price) from business_tariff_payments
+
+MAX: вычисляет наибольшее значение
+SELECT MAX(price) from business_tariff_payments
+
+COUNT: вычисляет количество строк в запросе
+SELECT COUNT(*) FROM account_users
+
+Агрегатное выражение может записываться следующим образом:
